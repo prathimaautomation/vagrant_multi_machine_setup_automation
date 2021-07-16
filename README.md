@@ -1,4 +1,13 @@
 # Automation of multi machine setup using Vagrant & provisioning
+```Monolith Architecture for our Nodejs APP
+
+With vagrant up you should be able to launch 2 VMs called app and db
+provision nodejs and mongodb in relevant VMs
+cd app
+npm start
+should launch the app with connection to monogdb
+192.168.10.100/posts must work with Reverse proxy set up using your provisioning script.
+```
 ### Instalattion of Vagrant, VirtualBox and Ruby
 ```
 Vagrant commands
